@@ -4,14 +4,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="">
-      lll
-      <div className="grid grid-cols-3 gap-5">
-        <div className="item col-span-1 bg-blue-200 p-4">Item 1</div>
-        <div className="item col-span-2 bg-blue-300 p-4">Item 2</div>
+    <div className="App">
+      <div className=' items-center p-4'>
+        <p className=' text-3xl'>  Happy Coding! </p>
+
+      </div>
+      <div className="grid grid-cols-3 gap-5 ml-5 mr-5">
+        <div className="item col-span-1 bg-blue-200 p-20 items-center">
+          <p className=' text-center text-4xl font-bold text-red-700'> HAPPY CODING!</p>
+        </div>
+        <div className="item col-span-1 bg-blue-300 p-20">Item 2</div>
         <div className="item col-span-1 bg-blue-400 p-4">Item 3</div>
-        <div className="item col-span-1 bg-blue-500 p-4">Item 4</div>
-        <div className="item col-span-1 bg-blue-600 p-4">Item 5</div>
+       
       </div>
 
       <div className="container mx-auto p-4">
@@ -41,3 +45,5 @@ function App() {
 }
 
 export default App;
+
+
