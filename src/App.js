@@ -19,7 +19,12 @@ function App() {
         <p className='mt-4'>World's number one property developer</p>
         </div>
         <div className='flex justify-around mt-10'>
-          <div className=' bg-blue-400 p-5 rounded'>Hotels</div>
+          <div className=' bg-blue-400 p-5 rounded'>Hotels
+            <p> We at ser have harious hotels ,
+              
+            </p>
+            <p> click below for more</p>
+          </div>
           <div className=' bg-pink-300 p-2 rounded-2xl'>Apartments</div>
           <div className=' bg-yellow-300 p-2'>Mansions</div>
         </div>
