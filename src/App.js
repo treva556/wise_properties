@@ -30,11 +30,21 @@ function App() {
           <div className='flex flex-col md:flex-row justify-around mt-5'>
             <div className='p-10 md:p-32 text-2xl font-bold'>Why Choose Us?</div>
             <div className='bg-custom-pink p-5 md:p-10'>
-              <p> Here at Ser, we are dedicated to find and give everyone their dream properties</p>
+              <p> Here at Ser, we are dedicated to build our clients their dream properties</p>
             </div>
           </div>
         </div>
-        <div className='flex flex-col md:flex-row justify-around mt-10'>
+
+        <div className='bg-green-200'>
+          <div className='flex flex-col md:flex-row justify-around mt-5'>
+            <div className='p-5 md:p-16 text-2xl font-bold'>Our Projects</div>
+            <div className='bg-custom-pink p-3 md:p-5'>
+              <p> Link</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='flex flex-col md:flex-row justify-around mt-4'>
           <div className='bg-custom-pink p-5 md:p-10'>Our Client Reviews</div>
           <div className='bg-custom-cream p-5 md:p-10'>Things I'll add later</div>
         </div>
