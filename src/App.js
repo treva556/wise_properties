@@ -14,7 +14,7 @@ function App() {
 
 
       <div className='text-center mt-10'>
-        <div className=' p-36'>
+        <div className=' p-20'>
         <h1 className='text-5xl'>BUILD WITH US</h1>
         <p className='mt-4'>World's number one property developer</p>
         </div>
