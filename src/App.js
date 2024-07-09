@@ -22,7 +22,7 @@ function App() {
             <p> We at ser have various hotels,</p>
             <p> click below for more</p>
           </div>
-          <div className='bg-pink-300 p-5 rounded m-2 md:m-0 w-full md:w-auto'>Apartments</div>
+          <div className='bg-pink-300 p-5 rounded m-2 md:m-0 w-full md:w-auto shadow-xl'>Apartments</div>
           <div className='bg-yellow-300 p-5 m-2 md:m-0 w-full md:w-auto rounded'>Mansions</div>
         </div>
         <p>hh</p>
@@ -38,8 +38,14 @@ function App() {
           <div className='bg-custom-pink p-5 md:p-10'>Our Client Reviews</div>
           <div className='bg-custom-cream p-5 md:p-10'>Things I'll add later</div>
         </div>
-        <footer className='h-32 bg-gray-800 p-4 text-center text-white'>
+        <footer className=' columns-2 h-32 bg-gray-800 p-4 text-center text-white'>
+          <div>
           FOOTER
+          </div>
+          <div>
+          FOOTER
+          </div>
+          
         </footer>
       </div>
     </div>
