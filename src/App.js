@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './App.css';
+import Projects from './sections/projects';
 
 function App() {
   return (
