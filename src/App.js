@@ -22,13 +22,15 @@ function App() {
             <p> We at ser have various hotels,</p>
             <p> click below for more</p>
           </div>
-          <div className='bg-pink-300 p-5 rounded-2xl m-2 md:m-0 w-full md:w-auto'>Apartments</div>
-          <div className='bg-yellow-300 p-5 m-2 md:m-0 w-full md:w-auto'>Mansions</div>
+          <div className='bg-pink-300 p-5 rounded m-2 md:m-0 w-full md:w-auto'>Apartments</div>
+          <div className='bg-yellow-300 p-5 m-2 md:m-0 w-full md:w-auto rounded'>Mansions</div>
         </div>
         <div className='bg-green-200'>
           <div className='flex flex-col md:flex-row justify-around mt-10'>
-            <div className='p-10 md:p-32'>Why Choose Us?</div>
-            <div className='bg-custom-pink p-5 md:p-10'>Add later</div>
+            <div className='p-10 md:p-32 text-2xl font-bold'>Why Choose Us?</div>
+            <div className='bg-custom-pink p-5 md:p-10'>
+              <p> Here at Ser, we are dedicated to find and give everyone their dream properties</p>
+            </div>
           </div>
         </div>
         <div className='flex flex-col md:flex-row justify-around mt-10'>
