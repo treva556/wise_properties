@@ -20,8 +20,8 @@ function App() {
         </div>
         <div className='flex justify-around mt-10'>
           <div className=' bg-blue-400 p-20'>Hotels</div>
-          <div className='bg-custom-pink p-10'>Apartments</div>
-          <div className='bg-custom-yellow p-10'>Mansions</div>
+          <div className=' bg-pink-300 p-10'>Apartments</div>
+          <div className=' bg-yellow-300 p-5'>Mansions</div>
         </div>
         <div className=' bg-green-200'>
         <div className='flex justify-around mt-10'>
@@ -36,13 +36,10 @@ function App() {
 
         <div className='bg-custom-cream p-10'>Things I'll add later</div>
         </div>
-        <footer className='bg-custom-dark-green p-4 text-center text-white'>
+        <footer className=' h-32 bg-gray-800 p-4 text-center text-white'>
           FOOTER
-          ll 
         </footer>
-        <div>
-          jjj
-        </div>
+      
       </div>
     </div>
   );
