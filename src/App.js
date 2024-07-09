@@ -16,7 +16,7 @@ function App() {
         <p className='mt-4'>World's number one property developer</p>
         </div>
         <div className='flex justify-around mt-10'>
-          <div className='bg-custom-blue p-10'>Hotels</div>
+          <div className=' bg-blue-400 p-10'>Hotels</div>
           <div className='bg-custom-pink p-10'>Apartments</div>
           <div className='bg-custom-yellow p-10'>Mansions</div>
         </div>
