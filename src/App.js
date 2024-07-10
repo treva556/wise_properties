@@ -6,14 +6,14 @@ import Projects from './sections/projects';
 function App() {
   return (
     <div className='bg1'>
-      <nav className='flex justify-end p-4 space-x-4 md:space-x-16 bg-gray-800'>
+      <nav className='flex justify-end p-4 space-x-4 md:space-x-16 bg-gray-800 fixed top-0 left-0 w-full '>
         <a href='#' className='c1 font-mono'>Services</a>
         <a href='#' className='c1'>Contacts</a>
         <a href='#' className='c1'>About Us</a>
       </nav>
 
       <div className='text-center mt-10'>
-        <div className='p-5 md:p-20'>
+        <div className='p-5 md:p-20 '>
           <h1 className='text-3xl md:text-5xl'>BUILD WITH US</h1>
           <p className='mt-4'>World's number one property developer</p>
         </div>
