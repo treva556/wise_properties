@@ -14,17 +14,17 @@ function App() {
 
       <div className='text-center mt-10'>
         <div className='p-5 md:p-20 '>
-          <h1 className='text-3xl md:text-5xl'>BUILD WITH US</h1>
+          <h1 className='text-3xl md:text-5xl p-8'>BUILD WITH US</h1>
           <p className='mt-4'>World's number one property developer</p>
         </div>
-        <div className='flex flex-col md:flex-row justify-around mt-10 mr-6'>
+        <div className='flex flex-col md:flex-row justify-around mt-10 mr-6 p-4'>
           <div className='bg-blue-400 p-5 rounded text-sm m-2 md:m-0 w-full md:w-auto'>
             Hotels
-            <p> We at ser have various hotels,</p>
-            <p> click below for more</p>
           </div>
           <div className='bg-pink-300 p-5 rounded m-2 md:m-0 w-full md:w-auto shadow-xl'>Apartments</div>
-          <div className='bg-yellow-300 p-5 m-2 md:m-0 w-full md:w-auto rounded'>Mansions</div>
+          <div className='bg-pink-300 p-5 rounded m-2 md:m-0 w-full md:w-auto shadow-xl'>Buildings</div>
+
+          <div className='bg-yellow-300 p-5 m-2 md:m-0 w-full md:w-auto rounded'>Other</div>
         </div>
         
         <footer className=' columns-2 h-32 bg-gray-800 p-4 text-center text-white'>
@@ -32,7 +32,7 @@ function App() {
           FOOTER
           </div>
           <div>
-          FOOTER
+          FOOTER//
           </div>
           
         </footer>
