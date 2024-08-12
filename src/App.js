@@ -97,10 +97,13 @@ function App() {
         <div className='p-4'>
           <h2 className='text-2xl font-semibold'>Top Clients</h2>
           <p className='mt-2'>We are proud to work with a diverse range of esteemed clients who trust us with their property needs. Our client base includes leading businesses and individuals from various sectors.</p>
-          <div className=' p-4 grid grid-cols-3'> 
+          <div className=' px-20 py-4 grid grid-cols-3'> 
             <div>1</div>
             <div>2</div>
             <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
           </div>
         </div>
 
