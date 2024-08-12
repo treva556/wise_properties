@@ -22,11 +22,15 @@ function App() {
         </div>
         <div>
           <h2> What we Do</h2>
+          <div className=' grid grid-cols-3'>
           <p>  Property management
           </p>
           <p> Buying,remodelling & reselling estates </p>
           <p> Building modern structures </p>
 
+
+          </div>
+          
         </div>
         <div className='flex flex-col md:flex-row justify-around mt-10 mr-6 p-4'>
           <div className='bg-blue-400 p-5 rounded text-sm m-2 md:m-0 w-full md:w-auto'>
