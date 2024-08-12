@@ -103,6 +103,10 @@ function Home() {
           </div>
         </div>
 
+        {/* <div className=" w-80 h-48 bg-gradient-to-br from-red-800 to-red-400 p-4 rounded-lg">
+        <p className="text-white">Your content here</p>
+      </div> */}
+
         <div className='p-4 b11 '>
           <h2 className='text-2xl font-semibold'>Top Clients</h2>
           <p className='mt-2'>We are proud to work with a diverse range of esteemed clients who trust us with their property needs. Our client base includes leading businesses and individuals from various sectors.</p>
