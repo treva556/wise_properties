@@ -84,6 +84,16 @@ function Home() {
           <p className='mt-2'>Our mission is to deliver excellence in every aspect of property development, setting benchmarks for quality, innovation, and sustainability. We strive to exceed our clients' expectations by providing exceptional service and results.</p>
         </div>
 
+        <div>
+           <h6 className=' text-2xl font-bold' >Featured Properties</h6>
+           <div className=' py-4 grid grid-cols-1 lg:grid-cols-4'>
+            <div> House 1</div>
+            <div> Apartment 1</div>
+            <div> Ranch</div>
+            <div> House 2</div>
+           </div>
+        </div>
+
         <div className='p-4'>
           <h2 className='text-2xl font-semibold'>Assets Numbers</h2>
           <div className=' grid grid-cols-3 py-4'>
