@@ -32,6 +32,20 @@ function Home() {
     </div>
   </div>
 </div>
+        <div className=' flex flex-row justify-center gap-4' >
+          <div className=' bg-gray-400 p-2'>
+            Buy
+          </div>
+          <div className=' bg-gray-400 p-2'>
+            Sell
+          </div>
+          <div className=' bg-gray-400 p-2'> 
+            Rent In
+          </div>
+          <div className=' bg-gray-400 p-2'>
+            Rent Out
+          </div>
+        </div>
 
         <div id='about' className='p-4'>
           <h2 className='text-2xl font-semibold'>About Us</h2>
@@ -86,7 +100,7 @@ function Home() {
 
         <div>
            <h6 className=' text-2xl font-bold' >Featured Properties</h6>
-           <div className=' py-4 grid grid-cols-1 lg:grid-cols-4'>
+           <div className=' py-4 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2'>
             <div> House 1</div>
             <div> Apartment 1</div>
             <div> Ranch</div>
