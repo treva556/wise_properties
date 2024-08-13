@@ -8,6 +8,10 @@ import Build from '../assets/build.jpeg';
 import House from '../assets/house.jpeg';
 import Other from '../assets/other.jpeg';
 import Phone from '../assets/phone.png';
+import Buy from '../assets/deal.png';
+import Sell from '../assets/sale.png';
+import Rent from '../assets/rent.png';
+import Frent from '../assets/for-rent.png';
 import Counter from '../sections/counter';
 
 function Home() {
@@ -34,15 +38,28 @@ function Home() {
 </div>
         <div className=' flex flex-row justify-center gap-4' >
           <div className=' bg-gray-400 p-2'>
+            <div>
+            <img src={Buy} alt="Phone" className='bg-white rounded-full p-1 w-16 h-16 object-cover mr-2' />
+
+            </div>
             Buy
           </div>
           <div className=' bg-gray-400 p-2'>
+          <img src={Sell} alt="Phone" className='bg-white rounded-full p-1 w-16 h-16 object-cover mr-2' />
             Sell
           </div>
           <div className=' bg-gray-400 p-2'> 
+          <div>
+            <img src={Rent} alt="Phone" className='bg-white rounded-full p-2 w-16 h-16 object-cover mr-2' />
+
+            </div>
             Rent In
           </div>
           <div className=' bg-gray-400 p-2'>
+          <div>
+            <img src={Frent} alt="Phone" className='bg-white rounded-full p-1 w-16 h-16 object-cover mr-2' />
+
+            </div>
             Rent Out
           </div>
         </div>
