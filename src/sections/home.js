@@ -16,6 +16,9 @@ import Kenya from '../assets/kenya.png';
 import Van from '../assets/van.png';
 import Rent from '../assets/rent.png';
 import Frent from '../assets/for-rent.png';
+import Wom from '../assets/woman.png';
+import Wom2 from '../assets/wom2.png';
+import Man from '../assets/man.png';
 import Counter from '../sections/counter';
 
 function Home() {
@@ -142,17 +145,25 @@ function Home() {
           <h2 className='text-2xl font-semibold'>Top Management</h2>
           <p className='mt-2'>Meet our team of industry leaders who drive our vision forward with expertise and dedication. Our top management is committed to leading our company to new heights of success.</p>
           <div className=' p-4 grid grid-cols-3 gap-1'> 
-            
-              <div className=' bg-yellow-300 p-2'>
-
-              
-              1. Director</div>
-
-
-            <div className='  bg-green-200 p-2'>2. CFO</div>
-            <div className='  bg-red-200 p-2'
-            >3. CMO</div>
+            <div className='flex justify-center items-center '>
+            <div className='bg-yellow-300 p-4 w-48 text-center'>
+              <img src={Wom} alt="Phone" className='w- h-32 object-cover mx-auto' />
+              <div className='mt-2'> Director</div>
+            </div>
           </div>
+          <div className='flex justify-center items-center '>
+            <div className='bg-red-300 p-4 w-48 text-center'>
+              <img src={Man} alt="Phone" className='w- h-32 object-cover mx-auto' />
+              <div className='mt-2'> CFO</div>
+            </div>
+          </div>
+          <div className='flex justify-center items-center '>
+            <div className='bg-blue-300 p-4 w-48 text-center'>
+              <img src={Wom2} alt="Phone" className='w- h-32 object-cover mx-auto' />
+              <div className='mt-2'>  CMO</div>
+            </div>
+          </div>
+           </div>
         </div>
 
         {/* <div className=" w-80 h-48 bg-gradient-to-br from-red-800 to-red-400 p-4 rounded-lg">
