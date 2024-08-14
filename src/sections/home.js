@@ -10,6 +10,10 @@ import Other from '../assets/other.jpeg';
 import Phone from '../assets/phone.png';
 import Buy from '../assets/deal.png';
 import Sell from '../assets/sale.png';
+import Citi from '../assets/citi.png';
+import Hil from '../assets/hilton.png';
+import Kenya from '../assets/kenya.png';
+import Van from '../assets/van.png';
 import Rent from '../assets/rent.png';
 import Frent from '../assets/for-rent.png';
 import Counter from '../sections/counter';
@@ -25,7 +29,7 @@ function Home() {
 
       <div className='text-center mt-10 '>
       <div className='text-center mt-10'>
-  <div className='p-5 md:p-20 border border-b-blue-950'>
+  <div className='py-12 md:p-20 border border-b-blue-950'>
     <h1 className='text-3xl md:text-5xl p-8'>BUILD WITH US</h1>
     <p className='mt-4'>Leading the way in innovative property development.</p>
     <div className='mt-8 flex justify-center'>
@@ -125,10 +129,10 @@ function Home() {
            </div>
         </div>
 
-        <div className='p-4'>
+        <div className='p-2'>
           <h2 className='text-2xl font-semibold'>Assets Numbers</h2>
           <div className=' grid grid-cols-3 py-4'>
-            <div className='text-xl font-bold'>Clients: <Counter endValue={3000} duration={5000} /></div>
+            <div className='text-xl font-bold'>Clients: <Counter endValue={2000} duration={5000} /></div>
             <div className='text-xl font-bold'>Properties: <Counter endValue={350} duration={5000} /></div>
             <div className='text-xl font-bold'>Total Assets $<Counter endValue={100} duration={4000} />B</div>
           </div>
@@ -137,10 +141,17 @@ function Home() {
         <div className='p-4'>
           <h2 className='text-2xl font-semibold'>Top Management</h2>
           <p className='mt-2'>Meet our team of industry leaders who drive our vision forward with expertise and dedication. Our top management is committed to leading our company to new heights of success.</p>
-          <div className=' p-4 grid grid-cols-3'> 
-            <div>1. Director</div>
-            <div>2. CFO</div>
-            <div>3. CMO</div>
+          <div className=' p-4 grid grid-cols-3 gap-1'> 
+            
+              <div className=' bg-yellow-300 p-2'>
+
+              
+              1. Director</div>
+
+
+            <div className='  bg-green-200 p-2'>2. CFO</div>
+            <div className='  bg-red-200 p-2'
+            >3. CMO</div>
           </div>
         </div>
 
@@ -151,11 +162,31 @@ function Home() {
         <div className='p-4 b11 '>
           <h2 className='text-2xl font-semibold'>Top Clients</h2>
           <p className='mt-2'>We are proud to work with a diverse range of esteemed clients who trust us with their property needs. Our client base includes leading businesses and individuals from various sectors.</p>
-          <div className=' px-20 py-4 grid grid-cols-3'> 
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+          <div className=' px-20 py-4 grid grid-cols-3 gap-8'> 
+            <div>
+            <div>
+            <img src={Kenya} alt="Phone" className=' w-32 h-16 object-cover ' />
+
+            </div>
+            </div>
+            <div>
+            <div>
+            <img src={Citi} alt="Phone" className='w-32 h-16 object-cover ' />
+
+            </div>
+            </div>
+            <div>
+            <div>
+            <img src={Hil} alt="Phone" className='  w-32 h-16 object-cover mr-2' />
+
+            </div>
+            </div>
+            <div>
+            <div>
+            <img src={Van} alt="Phone" className=' rounded-full  w-32 h-16 object-cover mr-2' />
+
+            </div>
+            </div>
             <div>5</div>
             <div>6</div>
           </div>
