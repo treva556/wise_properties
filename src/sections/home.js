@@ -20,57 +20,79 @@ import Wom from '../assets/woman.png';
 import Wom2 from '../assets/wom2.png';
 import Man from '../assets/man.png';
 import Counter from '../sections/counter';
+import Real from '../assets/real.jpeg';
 
 function Home() {
   return (
-    <div className='bg1 lg:px-52'>
-      <nav className='flex justify-end p-4 space-x-4 md:space-x-16 bg-gray-800 fixed top-0 left-0 w-full'>
-        <a href='/' className='c1 font-mono'>Home</a>
-        <a href='/showcase' className='c1 font-mono '> Showcase </a>
+    <div className="bg1 lg:px-52">
+    <nav className="flex justify-end p-4 space-x-4 md:space-x-16 bg-gray-800 fixed top-0 left-0 w-full z-10">
+      <a href="/" className="c1 font-mono">Home</a>
+      <a href="/showcase" className="c1 font-mono">Showcase</a>
+    </nav>
 
-      </nav>
-
-      <div className='text-center mt-10 '>
-      <div className='text-center mt-10'>
-  <div className='py-12 md:p-20 border border-b-blue-950'>
-    <h1 className='text-3xl md:text-5xl p-8'>BUILD WITH US</h1>
-    <p className='mt-4'>Leading the way in innovative property development.</p>
-    <div className='mt-8 flex justify-center'>
-      <div className='p-2 px-4 rounded-full shadow-xl flex items-center justify-center bg-red-600'>
-        <img src={Phone} alt="Phone" className='bg-white rounded-full p-1 w-6 h-6 object-cover mr-2' />
-        <div className='text-lg font-semibold text-white'>+254795156246</div>
-      </div>
-    </div>
-  </div>
-</div>
-        <div className=' flex flex-row justify-center gap-4' >
-          <div className=' bg-gray-400 p-2'>
-            <div>
-            <img src={Buy} alt="Phone" className='bg-white rounded-full p-1 w-16 h-16 object-cover mr-2' />
-
-            </div>
-            Buy
-          </div>
-          <div className=' bg-gray-400 p-2'>
-          <img src={Sell} alt="Phone" className='bg-white rounded-full p-1 w-16 h-16 object-cover mr-2' />
-            Sell
-          </div>
-          <div className=' bg-gray-400 p-2'> 
-          <div>
-            <img src={Rent} alt="Phone" className='bg-white rounded-full p-2 w-16 h-16 object-cover mr-2' />
-
-            </div>
-            Rent In
-          </div>
-          <div className=' bg-gray-400 p-2'>
-          <div>
-            <img src={Frent} alt="Phone" className='bg-white rounded-full p-1 w-16 h-16 object-cover mr-2' />
-
-            </div>
-            Rent Out
+    {/* Add padding-top to prevent overlap with the fixed navbar */}
+    <div className="bg1 lg:px-52 md:py-24 lg:py-28 pt-" style={{
+      backgroundImage: `url(${Real})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed',
+      height: '70vh',
+      '@media (min-width: 768px)': {
+        height: '90vh',
+      }
+    }}>
+ <div className="text-center mt-10">
+  <div></div>
+      <div className=" md:p-20 py-48 border border-blue-950">
+        <h1 className="text-3xl md:text-5xl p-8">BUILD WITH US</h1>
+        <p className="mt-4">Leading the way in innovative property development.</p>
+        <div className="mt-8 flex justify-center">
+          <div className="p-2 px-4 rounded-full shadow-xl flex items-center justify-center bg-red-600">
+            <img src={Phone} alt="Phone" className="bg-white rounded-full p-1 w-6 h-6 object-cover mr-2" />
+            <div className="text-lg font-semibold text-white">+254795156246</div>
           </div>
         </div>
+      </div>
+    </div>
 
+    </div>
+<div className=' bg1'>
+
+
+    {/* Ensure the content flows under the navbar */}
+    {/* <div className="text-center mt-10">
+      <div className=" md:p-20 border border-b-blue-950">
+        <h1 className="text-3xl md:text-5xl p-8">BUILD WITH US</h1>
+        <p className="mt-4">Leading the way in innovative property development.</p>
+        <div className="mt-8 flex justify-center">
+          <div className="p-2 px-4 rounded-full shadow-xl flex items-center justify-center bg-red-600">
+            <img src={Phone} alt="Phone" className="bg-white rounded-full p-1 w-6 h-6 object-cover mr-2" />
+            <div className="text-lg font-semibold text-white">+254795156246</div>
+          </div>
+        </div>
+      </div>
+    </div> */}
+
+    {/* Rest of the content */}
+    <div className="flex flex-row justify-center gap-4 pt-8">
+      <div className="bg-gray-400 p-2">
+        <img src={Buy} alt="Buy" className="bg-white rounded-full p-1 w-16 h-16 object-cover mr-2" />
+        Buy
+      </div>
+      <div className="bg-gray-400 p-2">
+        <img src={Sell} alt="Sell" className="bg-white rounded-full p-1 w-16 h-16 object-cover mr-2" />
+        Sell
+      </div>
+      <div className="bg-gray-400 p-2">
+        <img src={Rent} alt="Rent In" className="bg-white rounded-full p-2 w-16 h-16 object-cover mr-2" />
+        Rent In
+      </div>
+      <div className="bg-gray-400 p-2">
+        <img src={Frent} alt="Rent Out" className="bg-white rounded-full p-1 w-16 h-16 object-cover mr-2" />
+        Rent Out
+      </div>
+    </div>
+    <div>
         <div id='about' className='p-4'>
           <h2 className='text-2xl font-semibold'>About Us</h2>
           <p className='mt-2'>At Wise Properties, we are committed to redefining the property development landscape. Our team of experts combines passion with experience to deliver exceptional results in every project.</p>
@@ -202,6 +224,7 @@ function Home() {
             <div>6</div>
           </div>
         </div>
+        </div>
 
         <footer className='columns-2 h-32 bg-gray-800 p-4 text-center text-white'>
           <div>
@@ -218,3 +241,4 @@ function Home() {
 }
 
 export default Home;
+
