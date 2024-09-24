@@ -44,12 +44,12 @@ function Home() {
   {/* Adjustments for smaller screens */}
   <style>
     {`
-      @media (max-width: 768px) {
-        .bg1 {
-          background-attachment: scroll;
-          height: 50vh; /* Adjust height for small screens */
-        }
-      }
+     @media (max-width: 768px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
     `}
   </style>
 
