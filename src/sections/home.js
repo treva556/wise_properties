@@ -31,31 +31,42 @@ function Home() {
     </nav>
 
     {/* Add padding-top to prevent overlap with the fixed navbar */}
-    <div className="bg1 lg:px-52 md:py-24 lg:py-28 pt-" style={{
-      backgroundImage: `url(${Real})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundAttachment: 'fixed',
-      height: '70vh',
-      '@media (min-width: 768px)': {
-        height: '90vh',
+    <div 
+  className="bg1 lg:px-52 md:py-24 lg:py-28 pt-" 
+  style={{
+    backgroundImage: `url(${Real})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundAttachment: 'fixed',
+    height: '70vh',
+  }}
+>
+  {/* Adjustments for smaller screens */}
+  <style>
+    {`
+      @media (max-width: 768px) {
+        .bg1 {
+          background-attachment: scroll;
+          height: 50vh; /* Adjust height for small screens */
+        }
       }
-    }}>
- <div className="text-center mt-10">
-  <div></div>
-      <div className=" md:p-20 py-48 border border-blue-950">
-        <h1 className="text-3xl md:text-5xl p-8">BUILD WITH US</h1>
-        <p className="mt-4">Leading the way in innovative property development.</p>
-        <div className="mt-8 flex justify-center">
-          <div className="p-2 px-4 rounded-full shadow-xl flex items-center justify-center bg-red-600">
-            <img src={Phone} alt="Phone" className="bg-white rounded-full p-1 w-6 h-6 object-cover mr-2" />
-            <div className="text-lg font-semibold text-white">+254795156246</div>
-          </div>
+    `}
+  </style>
+
+  <div className="text-center mt-10">
+    <div></div>
+    <div className="md:p-20 py-48 border border-blue-950">
+      <h1 className="text-3xl md:text-5xl p-8">BUILD WITH US</h1>
+      <p className="mt-4">Leading the way in innovative property development.</p>
+      <div className="mt-8 flex justify-center">
+        <div className="p-2 px-4 rounded-full shadow-xl flex items-center justify-center bg-red-600">
+          <img src={Phone} alt="Phone" className="bg-white rounded-full p-1 w-6 h-6 object-cover mr-2" />
+          <div className="text-lg font-semibold text-white">+254795156246</div>
         </div>
       </div>
     </div>
-
-    </div>
+  </div>
+</div>
 <div className=' bg1'>
 
 
